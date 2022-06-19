@@ -32,7 +32,7 @@ public class GamePanel extends JPanel implements Runnable{
 		gameThread = new Thread(this);
 		gameThread.start();
 	}
-	
+	//objects 
 	public void newBall() {
 		random = new Random();
 		ball = new Ball((GAME_WIDTH/2)-(BALL_DIAMETER/2),random.nextInt(GAME_HEIGHT-BALL_DIAMETER),BALL_DIAMETER,BALL_DIAMETER);
